@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MiagendaApp());
+void main() => runApp(MiagendaYausliApp());
 
-class MiagendaApp extends StatelessWidget {
+class MiagendaYausliApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(debugShowCheckedModeBanner: false, title: "galeria fotografica", home: new PaginaPrincipal(title: "Galeria de imageneS")); //fin de materialapp return
